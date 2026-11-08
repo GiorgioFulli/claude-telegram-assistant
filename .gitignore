@@ -1,0 +1,15 @@
+# Secret files, in case any ever end up in this folder
+.env
+*.key
+# Python's library folder: huge, and anyone can rebuild it
+venv/
+.venv/
+# Python's temporary compiled files
+__pycache__/
+# Logs can contain your chat messages
+*.log
+# Claude Code's own settings
+.claude/
+# Old backup copies, which Git replaces from now on
+*.bak
+bot_before_system.py
